@@ -1,11 +1,26 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+cache/
+thumbs/
+vendor/
 
-# Other files and folders
-.settings/
+# NPM, Gulp and Grunt stuff
+node_modules
+bower_components
+npm-debug.log
+.sass-cache
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# File-system cruft and temporary files
+scrutinizer.phar
+php-cs-fixer.phar
+.DS_Store
+.idea
+__*
+._*
+Vagrantfile
+.vagrant*
+*.sublime-*
+/tags
+.*.swp
+.swp
+.buildpath
+.project
+/bolt.log
